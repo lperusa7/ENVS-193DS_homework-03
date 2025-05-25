@@ -8,11 +8,19 @@ The link to my GitHub repository is [here](https://github.com/lperusa7/ENVS-193D
 ## Setup
 
 ```{r}
+warning = FALSE
+message = FALSE
+
 library(tidyverse)
 library(here)
 library(flextable)
 library(readxl)
 library(janitor)
+
+# read in personal data
+personal <- read_csv(
+  # file path
+  here("data", "ES193DS_Personal_Data.csv"))
 ```
 
 # Problem 1: Personal Data
@@ -24,6 +32,26 @@ For my personal data, I'm observing how many tasks I complete in a given study s
 ## b.
 
 
+```{r, data-cleaning}
+# creatig clean data frame
+personal_cleaned <- personal |> # choosing personal data frame
+  # cleaning column names
+  clean_names() |>
+  select(date, study_period, music_genre, work_environment, time_of_day, sleep, productivity)
+```
 
-
-
+```{r, making-plot}
+ggplot(data = personal_cleaned,
+       aes(x = music_genre,
+           y = productivity)) +
+  geom_boxplot(fill = "skyblue",
+               color = "black") +
+  geom_jitter(width = 0.2,
+              alpha = 0.5,
+              color = "darkblue") +
+  geom_point() +
+         labs(x = "Music Genre",
+              y = "Productivity (Tasks completed per hour)",
+              title = "Average Task Completion Rate Based on Music Genre") +
+         theme_minimal()
+```
