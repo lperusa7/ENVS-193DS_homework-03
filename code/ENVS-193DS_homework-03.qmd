@@ -3,4 +3,27 @@ title: "ENVS-193DS_homework-03"
 format: html
 ---
 
-The link to my GitHub repository is here
+The link to my GitHub repository is [here](https://github.com/lperusa7/ENVS-193DS_homework-03)
+
+## Setup
+
+```{r}
+library(tidyverse)
+library(here)
+library(flextable)
+library(readxl)
+library(janitor)
+```
+
+# Problem 1: Personal Data
+
+## a. 
+
+For my personal data, I'm observing how many tasks I complete in a given study session, while listening to different genres of music during each study session to then be able to see if the music genre has an affect on my productivity rate. I then use the number of tasks completed to then calculate my productivity rate, to then compare the change in my productivity rate, which is (number of tasks / time), based on the different categories of music genres.
+
+## b.
+
+
+
+
+
