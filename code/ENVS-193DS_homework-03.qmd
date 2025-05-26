@@ -8,9 +8,7 @@ The link to my GitHub repository is [here](https://github.com/lperusa7/ENVS-193D
 
 ## Setup
 
-```{r}
-warning = FALSE
-message = FALSE
+```{r, message=FALSE, warning=FALSE}
 
 library(tidyverse)
 library(here)
