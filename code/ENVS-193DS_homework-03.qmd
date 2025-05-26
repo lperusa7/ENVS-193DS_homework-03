@@ -41,17 +41,45 @@ personal_cleaned <- personal |> # choosing personal data frame
 ```
 
 ```{r, making-plot}
-ggplot(data = personal_cleaned,
-       aes(x = music_genre,
-           y = productivity)) +
-  geom_boxplot(fill = "skyblue",
-               color = "black") +
-  geom_jitter(width = 0.2,
-              alpha = 0.5,
-              color = "darkblue") +
+ggplot(data = personal_cleaned, # choose data frame
+       aes(x = music_genre, # assign x-axis
+           y = productivity, # assign y-axis
+           fill = music_genre)) + # assign boxes by music_genre
+  geom_boxplot(color = "black") + # make box plot and s
+  geom_jitter(width = 0.2, # making points jitter horizontally
+              alpha = 0.5) + # making points slightly transparent
   geom_point() +
-         labs(x = "Music Genre",
-              y = "Productivity (Tasks completed per hour)",
-              title = "Average Task Completion Rate Based on Music Genre") +
-         theme_minimal()
+         labs(x = "Music Genre", # changing label for x-axis
+              y = "Productivity (Tasks completed per hour)", # changing label for y-axis
+              title = "Average Task Completion Rate Based on Music Genre") + # adding title name
+  theme_minimal() + # adding minimal theme
+  theme(legend.position = "none") # getting rid of legend
 ```
+
+## c.
+
+**Figure 1. Productivity Rate is higher when listening to Classical and Lofi music**
+Data from 'ES193DS_Personal_Data.csv' (Lescano, L. 2025).
+Points represent individual study period productivity rate (total n = 16), jittered horizontally to reduce overlap. Bold horizontal line represents the mean productivity rate for the group.
+
+## d.
+
+```{r, summarizing-data}
+# Step 1: Summarise the data by music genre
+
+summary_table <- personal_cleaned |> # creating summarized data object
+  group_by(music_genre) |> # group rows by music genre
+  summarise(mean_productivity = round(mean(productivity, # calculates mean within each group
+                                           na.rm = TRUE), 1))
+# Step 2: Create and format flextable
+
+flextable(summary_table) |> # create a table from the summary data
+  set_header_labels( # rename column headers for clarity
+    music_genre = "Music Genre",
+    mean_productivity = "Mean Productivity (Tasks Completed per Hour)"
+  ) |> 
+    align(j = "mean_productivity", align = "center", part = "all") |> #center values in productivity column
+  autofit() |> # auto-adjust column widths to fit content
+  add_header_lines("Average Productivity Rate by Music Genre") # add a custom title above the table
+```
+
