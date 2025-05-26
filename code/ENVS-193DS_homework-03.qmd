@@ -110,5 +110,10 @@ The t-test statistically compares whether the mean program budgets differ signif
 
 ## b. 
 
+The table clearly represents the data underlying tests through displaying a t-test was used and its purpose being to evaluate whether the average value of each variable differs significantly between high-budget and low-budget jurisdictions. Additionally, the variables help the reader assess whether environmental justice or resource access varies by program budget. The test was displayed in a informative format including degrees of freedom, which provides context about sample size and the reliability of the statistical test, the test statistic, and the test value, which describes if there is a meaningful difference between the two groups. 
+
+## c.
+
+
 
 
