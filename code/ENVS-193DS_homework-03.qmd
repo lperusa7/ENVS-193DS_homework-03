@@ -118,5 +118,4 @@ The table is clean and well-organized with the only possible visual clutter bein
 
 ## d.
 
-
-
+Table 2 is clearly organized and allows the reader to compare characteristics between high and low- budget jurisdictions. However, several changes could be made to improve clarity and impact. First, I would recommend bolding the most meaningful test results, for example the Tax Revenue (USD) test result, to easily display the most impactful results from the table. Secondly, the units of measurement for some of the variables, like IRR, should be included and possibly including context for what a Median CES Score of 20 means, like what the range of scores could be and there meaning. Finally, the authors could include a figure (such as a boxplot) alongside the table to visually support the statistical differences and make the results more accessible to visual learners. These changes would enhance the communicative power of the table and make key disparities easier to identify at a glance.
