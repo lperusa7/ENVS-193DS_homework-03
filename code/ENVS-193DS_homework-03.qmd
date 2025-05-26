@@ -93,9 +93,22 @@ An affective visualization of my personal data could take the form of a stylized
 ## b.
 
 
+
 ## c.
 
 
 ## d.
+
+
+# Problem 3: Statistical Critique
+
+## a.
+
+The t-test statistically compares whether the mean program budgets differ significantly between groups (ex. rural vs. urban or disadvantaged vs. non-disadvantaged communities), directly testing the authors’ question about distributional inequities. If the test yields a significant result (ex. p < 0.05), the authors would conclude that there is evidence of disparities in energy efficiency budgets between the compared groups, which supports their claim of systematic inequalities being tied to rurality, income, or disadvantaged status.
+
+[Insert Table 2 from paper HERE]
+
+## b. 
+
 
 
