@@ -114,6 +114,9 @@ The table clearly represents the data underlying tests through displaying a t-te
 
 ## c.
 
+The table is clean and well-organized with the only possible visual clutter being the test result values since it includes test statistic, degrees of freedom, and test value, but this is very informative and is designed that way purposefully. Asterisks are used to denote significant differences between the top and bottom quartiles. The title columns are bolded, engaging the reader to discover the meaning and purpose of the columns.
+
+## d.
 
 
 
