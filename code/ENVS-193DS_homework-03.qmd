@@ -98,6 +98,9 @@ An affective visualization of my personal data could take the form of a stylized
 
 ## d.
 
+This piece visualizes how different music genres impacted my productivity during study sessions. Each wave represents a genre, with the height and flow of the line representing the average rate at which I completed tasks, translating data into emotional rhythm.
+I was inspired by the affective visual strategies of Jill Pelto, who integrates data into landscape art, and the Dear Data project by Posavec and Lupi, which emphasized personal, emotional storytelling through visual abstraction. I aimed to combine sound wave aesthetics with gentle color gradients to create a sense of movement and tone.
+The form is a hand-drawn illustration, using colored pencil and ink to create layered waveforms that reflect the amplitude of productivity across music genres. The organic lines and textures evoke a more personal, emotional connection to the data.
 
 # Problem 3: Statistical Critique
 
@@ -105,7 +108,7 @@ An affective visualization of my personal data could take the form of a stylized
 
 The t-test statistically compares whether the mean program budgets differ significantly between groups (ex. rural vs. urban or disadvantaged vs. non-disadvantaged communities), directly testing the authors’ question about distributional inequities. If the test yields a significant result (ex. p < 0.05), the authors would conclude that there is evidence of disparities in energy efficiency budgets between the compared groups, which supports their claim of systematic inequalities being tied to rurality, income, or disadvantaged status.
 
-[Insert Table 2 from paper HERE]
+![](../images/table1.png)
 
 ## b. 
 
