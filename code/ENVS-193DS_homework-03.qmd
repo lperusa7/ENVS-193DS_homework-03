@@ -86,16 +86,16 @@ flextable(summary_table) |> # create a table from the summary data
 
 ## a.
 
-An affective visualization of my personal data could take the form of a stylized soundwave, where each genre is represented by a different color and the line thickness represents my productivity level. If one music genre has a higher productivity rate, then the peaks will be greater and it will appear more like a crecendo. This would visually and emotionally connect the act of studying with the type of music I was listening to, blending form with feeling. The visualization would not only communicate data, but how it felt to study with each kind of music, ultimately by the difference in productivity rates visually represented. 
+An affective visualization of my personal data could take the form of a stylized soundwave, where each genre is represented by a different color and the line thickness represents my productivity level. If one music genre has a higher productivity rate, then the peaks will be greater and it will appear more like a crescendo. This would visually and emotionally connect the act of studying with the type of music I was listening to, blending form with feeling. The visualization would not only communicate data, but how it felt to study with each kind of music, ultimately by the difference in productivity rates visually represented. 
 
 
 ## b.
 
-
+![](../images/ES193DS_AV_Sketch.jpg)
 
 ## c.
 
-
+![](../images/ES193DS_AV_Draft.jpg)
 
 ## d.
 
