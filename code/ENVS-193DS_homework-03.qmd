@@ -96,6 +96,7 @@ An affective visualization of my personal data could take the form of a stylized
 ## c.
 
 
+
 ## d.
 
 This piece visualizes how different music genres impacted my productivity during study sessions. Each wave represents a genre, with the height and flow of the line representing the average rate at which I completed tasks, translating data into emotional rhythm.
