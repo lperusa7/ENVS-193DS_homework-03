@@ -7,19 +7,18 @@ This repository is for my homework 3 assignment for my Env S 193DS class. In thi
 
 ## Data and File Information
 
-Code:
+### Code
 - `ENVS-193DS_homework-03.qmd`: code to read in the data to make plots and a summary table
-- `ENVS-193DS_homework-03.html`: rendered version of `ENVS-193DS_homework-03.qmd`
+- `ENVS-193DS_homework-03.html`: rendered version of `ENVS-193DS_homework-03.qmd`  
 - `ENVS-193DS_homework-03_files`: accessory files for `ENVS-193DS_homework-03.html`
 
-Data:
+### Data
 - `ES193DS_Personal_Data.csv`: file for personal data collection
 
-Image:
-- `table1.png`: table for statistical critique
-- `ES193DS_AV_Sketch.jpg`: sketch for affective visualization
+### Image
+- `table1.png`: table for statistical critique  
+- `ES193DS_AV_Sketch.jpg`: sketch for affective visualization  
 - `ES193DS_AV_Draft.jpg`: draft for affective visualization
-
 
 ## Rendered Output
 
