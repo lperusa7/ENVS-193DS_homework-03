@@ -3,7 +3,7 @@ Homework 3 repository
 
 ## General Information
 
-This repository is for my homework 3 assignment for my Env S 193DS class. In this assignment, we explored our personal data by creating visualizations, a boxplot and a table. We also created a affective visualization and in Problem 3 we conducted a statistical critique on a published paper.
+This repository is for my Homework 3 assignment for Environmental Studies 193DS. In this assignment, I analyzed personal data by creating visualizations, including a boxplot and a summary table. I also developed an affective visualization, and in Problem 3, I conducted a statistical critique of a published study.
 
 ## Data and File Information
 
