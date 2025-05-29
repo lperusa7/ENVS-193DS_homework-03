@@ -12,5 +12,3 @@ There is a code file with the Quarto document for homework 3 and a data file wit
 ## Rendered Output
 
 The rendered .html for this workshop's materials is [here](https://lperusa7.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
-
-Testing testing
